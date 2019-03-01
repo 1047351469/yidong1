@@ -49,6 +49,6 @@ class Test1:
         print(before)
         assert 1
 
-    def test_d(self, before):  # ⚠️ test_c方法传入了被fixture标识的函数，已变量的形式
+    def test_e(self, before):  # ⚠️ test_c方法传入了被fixture标识的函数，已变量的形式
         print(before)
         assert 1
