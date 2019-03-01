@@ -45,3 +45,6 @@ class Test1:
     #     print("------->test_b")
     #     assert 1
 #     pytest.main(["-s","test_1.py"])
+     def test_c(self,before):  # ⚠️ test_c方法传入了被fixture标识的函数，已变量的形式
+        print(before)
+        assert 1
